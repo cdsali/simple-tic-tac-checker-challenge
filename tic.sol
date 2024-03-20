@@ -6,7 +6,7 @@ contract TicTacToe {
     string memory a = "e"; // Initialize string a
     string memory b = "e"; // Initialize string b
     bool emp = true; // Initialize emp flag
-
+ ///hello
     for (uint i = 0; i < 3; i++) {
         // Check rows
         if (board[i][0] == board[i][1] && board[i][1] == board[i][2]) {
